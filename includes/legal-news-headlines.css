@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/**
+ * legal-news-headlines.css - Front-end stylesheet for the Legal News Headlines widget.
+
+*/
+
+/* outer block for the widget */
+div.legal_news_headlines_block {
+	height: 400px;
+	width: 100%;
+	overflow-y: hidden;
+	position: relative;
+}
+
+/* title */
+h3.legal_news_headlines_title {
+
+}
+
+/* div container around UL for scrolling purposes */
+div.legal_news_headlines_list_container {
+
+}
+
+/* ul for the list of headlines */
+ul.legal_news_headlines_list {
+	list-style: square inside;
+}
+
+/* each list item */
+li.legal_news_headlines_listitem {
+}
+
+/* linked text in list item */
+a.legal_news_headlines_link {
+	line-height:100%;
+}
+
+/* headline excerpt, if enabled */
+span.legal_news_headlines_excerpt {
+	display: block;
+	width: 100%;
+	line-height:100%;
+}

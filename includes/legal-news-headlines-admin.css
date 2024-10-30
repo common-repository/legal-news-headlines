@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/**
+ * legal-news-headlines.css - Stylesheet for widget settings page (admin)
+
+*/
+
+input.legal_news_headlines_admin_title {
+	width:100%;
+}
+
+input.legal_news_headlines_admin_blogurl {
+	width:100%;
+}
+
+img.legal_news_headlines_admin_headerimage {
+	top: -12px;
+	left: -12px;
+	position: relative;
+}
+
+a.legal_news_headlines_admin_ldc {
+	text-decoration:none;
+	outline:none;
+}
